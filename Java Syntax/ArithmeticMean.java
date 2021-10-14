@@ -5,7 +5,7 @@ public class ArithmeticMean {
 		Scanner scan = new Scanner(System.in);
 		
 		int sum = 0;
-		int counter = 0;
+		double counter = 0;
 		
 		while (true) {
 			int number = scan.nextInt();
@@ -16,6 +16,6 @@ public class ArithmeticMean {
 			sum += number;
 		}
 		
-		System.out.printf("Arithmetic mean is %.2f%n", (double) sum / counter);
+		System.out.printf("Arithmetic mean is %.2f%n", sum / counter);
 	}
 }
