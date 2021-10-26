@@ -12,6 +12,7 @@ public class Loops {
 			}
 			else if (number > 80 && number % 2 != 0) {
 				System.out.println(++counter + ". Closer...");
+				continue;
 			}
 			System.out.println(++counter + ". Still inside...");
 		}
